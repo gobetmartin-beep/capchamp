@@ -1,5 +1,6 @@
 # Supplier
-GET http://localhost:4004/odata/v4/productshop/Supplier
+GET http://localhost:35083/odata/v4/productshop/Supplier
 
 # Product
-GET http://localhost:4004/odata/v4/productshop/Product
+Send Request
+GET http://localhost:35083/odata/v4/productshop/Product
