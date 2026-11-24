@@ -5,14 +5,17 @@ aspect carbonemission {
     rating: String;
 }
 
+aspect id {
+    key ID : UUID;
+}
+
 type pricecost {
     price: Integer;
     stock: Integer;
 }
 
-entity Product : carbonemission
+entity Product : id,carbonemission
 {
-    key ID : Integer;
     name : String;
     category : Integer;
     cost: pricecost;

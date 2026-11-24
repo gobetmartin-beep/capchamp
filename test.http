@@ -1,5 +1,17 @@
 # Supplier
-GET http://localhost:4004/odata/v4/productshop/Supplier
+#GET http://localhost:4004/odata/v4/productshop/Supplier
 
 # Product
-GET http://localhost:4004/odata/v4/productshop/Product
+#GET http://localhost:4004/odata/v4/productshop/Product
+
+POST http://localhost:4004/odata/v4/productshop/Product
+Content-Type: application/json
+
+{
+      "emission": 55000,
+      "rating": "D+",
+      "name": "Citroen",
+      "category": 3,
+      "cost_price": 12500,
+      "cost_stock": 42
+}
